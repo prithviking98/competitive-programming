@@ -1,0 +1,4 @@
+gcc -g -Wall -pedantic -c das_shm.c
+gcc -g -Wall -pedantic acquire_rawsock_shm.c das_shm.o -o acquire_rawsock_shm
+gcc -g -Wall -pedantic acq_write2file.c das_shm.o -o acq_write2file
+rm das_shm.o

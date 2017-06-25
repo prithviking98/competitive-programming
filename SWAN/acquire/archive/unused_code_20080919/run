@@ -1,0 +1,35 @@
+#!/bin/bash
+
+~/src/acquire/acquire_1056bytes eth0 1
+~/src/acquire/long_mark_gap packet0 4 20 10 > check_write_1
+rm packet0
+~/src/acquire/acquire_1056bytes eth0 1
+~/src/acquire/long_mark_gap packet0 4 20 10 > check_write_2
+rm packet0
+~/src/acquire/acquire_1056bytes eth0 1
+~/src/acquire/long_mark_gap packet0 4 20 10 > check_write_3
+rm packet0
+~/src/acquire/acquire_1056bytes eth0 1
+~/src/acquire/long_mark_gap packet0 4 20 10 > check_write_4
+rm packet0
+~/src/acquire/acquire_1056bytes eth0 1
+~/src/acquire/long_mark_gap packet0 4 20 10 > check_write_5
+rm packet0
+
+
+#~/src/acquire/oldstuff_other/acquire_1056bytes eth0 1
+#~/src/acquire/long_mark_gap packet0 4 20 10 > check_fwrite_1
+#rm packet0
+#~/src/acquire/oldstuff_other/acquire_1056bytes eth0 1
+#~/src/acquire/long_mark_gap packet0 4 20 10 > check_fwrite_2
+#rm packet0
+#~/src/acquire/oldstuff_other/acquire_1056bytes eth0 1
+#~/src/acquire/long_mark_gap packet0 4 20 10 > check_fwrite_3
+#rm packet0
+#~/src/acquire/oldstuff_other/acquire_1056bytes eth0 1
+#~/src/acquire/long_mark_gap packet0 4 20 10 > check_fwrite_4
+#rm packet0
+#~/src/acquire/oldstuff_other/acquire_1056bytes eth0 1
+#~/src/acquire/long_mark_gap packet0 4 20 10 > check_fwrite_5
+#rm packet0
+

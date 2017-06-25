@@ -1,0 +1,1 @@
+gcc -Wall -pedantic acquire_1030bytes.c -lpcap -o acquire_1030bytes

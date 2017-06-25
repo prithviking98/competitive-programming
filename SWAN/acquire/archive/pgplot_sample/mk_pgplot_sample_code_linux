@@ -1,0 +1,2 @@
+cc -c -I/usr/local/include -I/usr/local/pgplot pgplot_sample_code_linux.c
+f77 -o pgplot_sample_code_linux pgplot_sample_code_linux.o -L/usr/local/pgplot -lcpgplot -lpgplot -L/usr/X11R6/lib -lX11 -lm

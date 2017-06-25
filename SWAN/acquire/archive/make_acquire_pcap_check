@@ -1,0 +1,2 @@
+gcc -g -Wall -pedantic acquire_pcap_check.c -lpcap -o ~/bin/acquire_pcap_check
+#gcc -g -Wall -pedantic mbr_acquire_check_ftxstatus.c -lpcap -o ~/bin/mbracquirecheck

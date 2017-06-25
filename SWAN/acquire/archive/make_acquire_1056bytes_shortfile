@@ -1,0 +1,1 @@
+gcc -g -Wall -pedantic acquire_1056bytes_shortfile.c -lpcap -o ~/bin/acquire_1056bytes_shortfile

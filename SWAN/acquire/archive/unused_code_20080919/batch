@@ -1,0 +1,5 @@
+~/src/acquire/acquire_1056bytes_opt -m 1
+~/src/acquire/long_mark_gap packet0 4 20 10 > check
+grep Slip check | wc -l
+rm -f check
+rm -f packet0

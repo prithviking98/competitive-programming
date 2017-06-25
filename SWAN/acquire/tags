@@ -1,0 +1,694 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+AB_BASE	/home/das/src/socket/mbr_serialport.h	70;"	d
+Accept	/home/das/src/socket/mbr_common.cpp	/^CSocket* CSocket::Accept(void)$/;"	f	class:CSocket
+BYTE	mbr_acquire.h	/^typedef unsigned char BYTE;$/;"	t
+CMsgQ	/home/das/src/socket/mbr_common.cpp	/^CMsgQ::CMsgQ()$/;"	f	class:CMsgQ
+CMsgQ	/home/das/src/socket/mbr_common.cpp	/^CMsgQ::CMsgQ(int iMsgQHandle)$/;"	f	class:CMsgQ
+CMsgQ	/home/das/src/socket/mbr_common.h	/^class CMsgQ$/;"	c
+CSocket	/home/das/src/socket/mbr_common.cpp	/^CSocket::CSocket()$/;"	f	class:CSocket
+CSocket	/home/das/src/socket/mbr_common.cpp	/^CSocket::CSocket(int iSocketFD)$/;"	f	class:CSocket
+CSocket	/home/das/src/socket/mbr_common.cpp	/^CSocket::CSocket(int iSocketType,$/;"	f	class:CSocket
+CSocket	/home/das/src/socket/mbr_common.h	/^class CSocket$/;"	c
+Cmd_acCommand	/home/das/src/socket/mbr_common.h	401;"	d
+Cmd_iDASID	/home/das/src/socket/mbr_common.h	398;"	d
+DAS_BLOCKADDS_S	das_shm.h	/^} DAS_BLOCKADDS_S;$/;"	t	typeref:struct:tag_DAS_BlockAdds
+DAS_BLOCKID_START	das_shm.h	26;"	d
+DAS_BLOCK_S	das_shm.h	/^} DAS_BLOCK_S;$/;"	t	typeref:struct:tag_DAS_Block
+DAS_BYTE	das.h	/^typedef unsigned char DAS_BYTE;$/;"	t
+DAS_CHK_SIZE_DATABLOCK	mbr_acqsniff.h	14;"	d
+DAS_CHK_SIZE_DATABLOCK_DT	mbr_acqsniff.h	15;"	d
+DAS_CleanUp	das_shm.c	/^void DAS_CleanUp(const char *szKeyFile, int iPID)$/;"	f
+DAS_CreateBlock	das_shm.c	/^DAS_BLOCKADDS_S DAS_CreateBlock(int iNewBlockID,$/;"	f
+DAS_CreateShmHeader	das_shm.c	/^DAS_HEADERADDS_S DAS_CreateShmHeader(int iPID)$/;"	f
+DAS_CreateShmInfo	das_shm.c	/^DAS_SHMINFO_S* DAS_CreateShmInfo(const char *szKeyFile, int iPID)$/;"	f
+DAS_Delay	das_shm.c	/^void DAS_Delay(DAS_SHMINFO_S *pstShmInfo, int iDelayCount, int iReadData)$/;"	f
+DAS_DeleteBlock	das_shm.c	/^int DAS_DeleteBlock(int iBlockID,$/;"	f
+DAS_DeleteHeader	das_shm.c	/^void DAS_DeleteHeader(int iPID)$/;"	f
+DAS_FALSE	das.h	20;"	d
+DAS_GetBlockByBlockID	das_shm.c	/^DAS_BLOCKADDS_S DAS_GetBlockByBlockID(int iBlockID,$/;"	f
+DAS_GetFirstBlock	das_shm.c	/^DAS_BLOCKADDS_S DAS_GetFirstBlock(const char *szKeyFile, int iPID)$/;"	f
+DAS_GetHeader	das_shm.c	/^DAS_HEADERADDS_S DAS_GetHeader(int iPID)$/;"	f
+DAS_GetNextBlock	das_shm.c	/^DAS_BLOCKADDS_S DAS_GetNextBlock(int iThisBlockID, const char *szKeyFile, int iPID)$/;"	f
+DAS_HEADERADDS_S	das_shm.h	/^} DAS_HEADERADDS_S;$/;"	t	typeref:struct:tag_DAS_HeaderAdds
+DAS_HEADER_S	das.h	/^} DAS_HEADER_S;$/;"	t	typeref:struct:tag_DAS_Header
+DAS_ID_BLOCK	das_shm.h	23;"	d
+DAS_ID_DATA	das_shm.h	24;"	d
+DAS_ID_HEADERINFO	das_shm.h	19;"	d
+DAS_ID_SHIFT	das_shm.h	41;"	d
+DAS_ID_SHMHEADER	das_shm.h	18;"	d
+DAS_ID_SHMINF0	das_shm.h	20;"	d
+DAS_KEY_CHK_OUT	das_shm.h	63;"	d
+DAS_KEY_DEDISP_OUT	das_shm.h	66;"	d
+DAS_KEY_EXTRACT_OUT	das_shm.h	67;"	d
+DAS_KEY_FL_OUT	das_shm.h	62;"	d
+DAS_KEY_SPECTRO_OUT	das_shm.h	64;"	d
+DAS_KEY_STAT_OUT	das_shm.h	65;"	d
+DAS_LEN_STRING	das.h	28;"	d
+DAS_MAX_SHM_BLOCKS	das_shm.h	47;"	d
+DAS_MAX_SHM_NATTCH	das_shm.h	50;"	d
+DAS_NUM_BUFS	das_shm.h	60;"	d
+DAS_PID_CHK	das_shm.h	71;"	d
+DAS_PID_DEDISP	das_shm.h	74;"	d
+DAS_PID_EXTRACT	das_shm.h	75;"	d
+DAS_PID_FL	das_shm.h	70;"	d
+DAS_PID_SPECTRO	das_shm.h	72;"	d
+DAS_PID_STAT	das_shm.h	73;"	d
+DAS_PKTSPERBLOCK	mbr_acqsniff.h	17;"	d
+DAS_RET_ERROR	das.h	24;"	d
+DAS_RET_SUCCESS	das.h	23;"	d
+DAS_SHMHEADER_S	das_shm.h	/^} DAS_SHMHEADER_S;$/;"	t	typeref:struct:tag_DAS_ShmHeader
+DAS_SHMINFO_S	das_shm.h	/^} DAS_SHMINFO_S;$/;"	t	typeref:struct:tag_DAS_ShmInfo
+DAS_SHM_DATATYPE	das_shm.h	52;"	d
+DAS_SIZE_HEADER	das.h	26;"	d
+DAS_SIZE_SHM_DATA	das_shm.h	54;"	d
+DAS_SIZE_SHM_DATA_DT	das_shm.h	57;"	d
+DAS_STATUS_FRESH	das_shm.h	82;"	d
+DAS_STATUS_NOP	das_shm.h	77;"	d
+DAS_STATUS_READ	das_shm.h	83;"	d
+DAS_STATUS_WRITEDONE	das_shm.h	79;"	d
+DAS_STATUS_WRITESTART	das_shm.h	78;"	d
+DAS_ShmAlloc	das_shm.c	/^void* DAS_ShmAlloc(const char *szPath,$/;"	f
+DAS_ShmInit	das_shm.c	/^DAS_SHMINFO_S* DAS_ShmInit(const char *szKeyFile, int iPID)$/;"	f
+DAS_TRUE	das.h	21;"	d
+DAS_UpdateShmHeader	das_shm.c	/^int DAS_UpdateShmHeader(DAS_BYTE *pbNewHeaderInfo, int iPID)$/;"	f
+DeviceLookUp	/home/das/src/socket/mbr_serialport.h	/^typedef struct DeviceLookUp$/;"	s
+FL	/home/das/src/socket/mbr_serialport.h	68;"	d
+Flush	/home/das/src/socket/mbr_common.cpp	/^int CMsgQ::Flush(void)$/;"	f	class:CMsgQ
+IL	/home/das/src/socket/mbr_serialport.h	67;"	d
+LEN_DATAHEADER	mbr_acqsniff.h	18;"	d
+LEN_DATAHEADER	mbr_acquire.h	77;"	d
+MAX_LEN_FILENAME	mbr_acquire.h	17;"	d
+MAX_NUM_CHECKPKTSPERFILE	mbr_acquire.h	23;"	d
+MAX_NUM_FILES	mbr_acquire.h	24;"	d
+MAX_NUM_INFOITEMS	mbr_acquire.h	79;"	d
+MAX_NUM_PKTSPERFILE	mbr_acquire.h	22;"	d
+MAX_NUM_SLIPS	mbr_acquire.h	78;"	d
+MAX_SIZE_FILE	mbr_acquire.h	19;"	d
+MAX_SIZE_PACKET	mbr_acquire.h	18;"	d
+MBR_8255CW_1	/home/das/src/socket/mbr_serialport.h	40;"	d
+MBR_8255CW_2	/home/das/src/socket/mbr_serialport.h	44;"	d
+MBR_8255INPORT_A1	/home/das/src/socket/mbr_serialport.h	49;"	d
+MBR_8255INPORT_A2	/home/das/src/socket/mbr_serialport.h	52;"	d
+MBR_8255INPORT_B1	/home/das/src/socket/mbr_serialport.h	50;"	d
+MBR_8255INPORT_B2	/home/das/src/socket/mbr_serialport.h	53;"	d
+MBR_8255INPORT_C1	/home/das/src/socket/mbr_serialport.h	51;"	d
+MBR_8255INPORT_C2	/home/das/src/socket/mbr_serialport.h	54;"	d
+MBR_8255MODE_AIBICI	/home/das/src/socket/mbr_serialport.h	37;"	d
+MBR_8255MODE_AIBICO	/home/das/src/socket/mbr_serialport.h	33;"	d
+MBR_8255MODE_AIBOCI	/home/das/src/socket/mbr_serialport.h	35;"	d
+MBR_8255MODE_AIBOCO	/home/das/src/socket/mbr_serialport.h	31;"	d
+MBR_8255MODE_ALLOUT	/home/das/src/socket/mbr_serialport.h	29;"	d
+MBR_8255MODE_AOBICI	/home/das/src/socket/mbr_serialport.h	36;"	d
+MBR_8255MODE_AOBICO	/home/das/src/socket/mbr_serialport.h	32;"	d
+MBR_8255MODE_AOBOCI	/home/das/src/socket/mbr_serialport.h	34;"	d
+MBR_8255PORT_A1	/home/das/src/socket/mbr_serialport.h	41;"	d
+MBR_8255PORT_A2	/home/das/src/socket/mbr_serialport.h	45;"	d
+MBR_8255PORT_B1	/home/das/src/socket/mbr_serialport.h	42;"	d
+MBR_8255PORT_B2	/home/das/src/socket/mbr_serialport.h	46;"	d
+MBR_8255PORT_C1	/home/das/src/socket/mbr_serialport.h	43;"	d
+MBR_8255PORT_C2	/home/das/src/socket/mbr_serialport.h	47;"	d
+MBR_ACQARG_DEVFLAG	/home/das/src/socket/mbr_common.h	328;"	d
+MBR_ACQARG_DURFLAG	/home/das/src/socket/mbr_common.h	327;"	d
+MBR_ACQARG_MCCFGFLAG	/home/das/src/socket/mbr_common.h	324;"	d
+MBR_ACQARG_MODEFLAG	/home/das/src/socket/mbr_common.h	325;"	d
+MBR_ACQARG_OFFSETFLAG	/home/das/src/socket/mbr_common.h	326;"	d
+MBR_ACQMODE_CHECK	/home/das/src/socket/mbr_common.h	193;"	d
+MBR_ACQMODE_OBS	/home/das/src/socket/mbr_common.h	190;"	d
+MBR_ACQMODE_SNIFF	/home/das/src/socket/mbr_common.h	191;"	d
+MBR_ACQMODE_SNIFFACQ	/home/das/src/socket/mbr_common.h	192;"	d
+MBR_ACQSTATUS_OFF	/home/das/src/socket/mbr_common.h	64;"	d
+MBR_ACQSTATUS_ON	/home/das/src/socket/mbr_common.h	65;"	d
+MBR_ACQ_MAX_ARGS	/home/das/src/socket/mbr_common.h	72;"	d
+MBR_AMMASK_DW	mbr_acquire.h	51;"	d
+MBR_AMMASK_FF	mbr_acquire.h	52;"	d
+MBR_AMMASK_PU	mbr_acquire.h	54;"	d
+MBR_AMMASK_SC	mbr_acquire.h	55;"	d
+MBR_AMMASK_SHM	mbr_acquire.h	53;"	d
+MBR_ARG_HELPLONG	/home/das/src/socket/mbr_common.h	130;"	d
+MBR_ARG_HELPSHORT	/home/das/src/socket/mbr_common.h	131;"	d
+MBR_ARG_MIN	/home/das/src/socket/mbr_common.h	333;"	d
+MBR_ARG_VERLONG	/home/das/src/socket/mbr_common.h	133;"	d
+MBR_ARG_VERSHORT	/home/das/src/socket/mbr_common.h	134;"	d
+MBR_ATTN_FACTOR	/home/das/src/socket/mbr_common.h	208;"	d
+MBR_ATTN_FRAC	/home/das/src/socket/mbr_common.h	204;"	d
+MBR_BITPOS_ATTENLATCH	/home/das/src/socket/mbr_serialport.h	56;"	d
+MBR_BYTE	mbr_dataheader.h	/^typedef unsigned char MBR_BYTE;$/;"	t
+MBR_Bitmap2Int	/home/das/src/socket/mbr_common.cpp	/^int MBR_Bitmap2Int(const char* pcVal)$/;"	f
+MBR_Bitmap2LongLong	/home/das/src/socket/mbr_serialport.cpp	/^long long MBR_Bitmap2LongLong(const char *pcVal)$/;"	f
+MBR_BuildFilename	mbr_acquire.cpp	/^void MBR_BuildFilename(struct tm *pstTime, int iCount, char acFilename[])$/;"	f
+MBR_CFG_DAS	/home/das/src/socket/mbr_common.h	362;"	d
+MBR_CFG_MC	/home/das/src/socket/mbr_common.h	361;"	d
+MBR_CLK_HIGH	/home/das/src/socket/mbr_serialport.h	63;"	d
+MBR_CLK_LOW	/home/das/src/socket/mbr_serialport.h	64;"	d
+MBR_CMD	/home/das/src/socket/mbr_common.h	405;"	d
+MBR_CMDTYPE_DO	/home/das/src/socket/mbr_common.h	138;"	d
+MBR_CMDTYPE_GET	/home/das/src/socket/mbr_common.h	137;"	d
+MBR_CMDTYPE_SET	/home/das/src/socket/mbr_common.h	136;"	d
+MBR_CMD_ACQDUR	/home/das/src/socket/mbr_common.h	263;"	d
+MBR_CMD_ACQMODE	/home/das/src/socket/mbr_common.h	265;"	d
+MBR_CMD_ACQMODE_CHECK	/home/das/src/socket/mbr_common.h	244;"	d
+MBR_CMD_ACQMODE_OBS	/home/das/src/socket/mbr_common.h	243;"	d
+MBR_CMD_ACQMODE_SNIFF	/home/das/src/socket/mbr_common.h	241;"	d
+MBR_CMD_ACQMODE_SNIFFACQ	/home/das/src/socket/mbr_common.h	242;"	d
+MBR_CMD_ACQUIRE	/home/das/src/socket/mbr_common.h	256;"	d
+MBR_CMD_ACQUISITION	/home/das/src/socket/mbr_common.h	218;"	d
+MBR_CMD_ATTENUATOR	/home/das/src/socket/mbr_common.h	221;"	d
+MBR_CMD_ATTENUATOR1	/home/das/src/socket/mbr_common.h	222;"	d
+MBR_CMD_ATTENUATOR2	/home/das/src/socket/mbr_common.h	223;"	d
+MBR_CMD_ATTENUATOR3	/home/das/src/socket/mbr_common.h	224;"	d
+MBR_CMD_ATTENUATOR4	/home/das/src/socket/mbr_common.h	225;"	d
+MBR_CMD_BITPACKMODE	/home/das/src/socket/mbr_common.h	246;"	d
+MBR_CMD_BITPACK_4	/home/das/src/socket/mbr_common.h	247;"	d
+MBR_CMD_BITPACK_8	/home/das/src/socket/mbr_common.h	248;"	d
+MBR_CMD_DASID	/home/das/src/socket/mbr_common.h	237;"	d
+MBR_CMD_DATACHECK	/home/das/src/socket/mbr_common.h	255;"	d
+MBR_CMD_DATAMODE	/home/das/src/socket/mbr_common.h	245;"	d
+MBR_CMD_DIAG	/home/das/src/socket/mbr_common.h	239;"	d
+MBR_CMD_DO	/home/das/src/socket/mbr_common.h	217;"	d
+MBR_CMD_ETHDEV	/home/das/src/socket/mbr_common.h	266;"	d
+MBR_CMD_FLUSHMSGQ	/home/das/src/socket/mbr_common.h	273;"	d
+MBR_CMD_FPGA	/home/das/src/socket/mbr_common.h	238;"	d
+MBR_CMD_FPGAPROG	/home/das/src/socket/mbr_common.h	236;"	d
+MBR_CMD_FPGARESET	/home/das/src/socket/mbr_common.h	235;"	d
+MBR_CMD_GET	/home/das/src/socket/mbr_common.h	216;"	d
+MBR_CMD_GPS	/home/das/src/socket/mbr_common.h	249;"	d
+MBR_CMD_HEADERINFO	/home/das/src/socket/mbr_common.h	258;"	d
+MBR_CMD_HIF	/home/das/src/socket/mbr_common.h	229;"	d
+MBR_CMD_HRF	/home/das/src/socket/mbr_common.h	228;"	d
+MBR_CMD_INIT	/home/das/src/socket/mbr_common.h	260;"	d
+MBR_CMD_LODWELL	/home/das/src/socket/mbr_common.h	234;"	d
+MBR_CMD_LOFREQ	/home/das/src/socket/mbr_common.h	230;"	d
+MBR_CMD_LOMAX	/home/das/src/socket/mbr_common.h	232;"	d
+MBR_CMD_LOMIN	/home/das/src/socket/mbr_common.h	231;"	d
+MBR_CMD_LOSTEP	/home/das/src/socket/mbr_common.h	233;"	d
+MBR_CMD_MASTER	/home/das/src/socket/mbr_common.h	250;"	d
+MBR_CMD_MCACQDUR	/home/das/src/socket/mbr_common.h	281;"	d
+MBR_CMD_MCACQUIRE	/home/das/src/socket/mbr_common.h	282;"	d
+MBR_CMD_MCD_FLUSHMSGQ	/home/das/src/socket/mbr_common.h	274;"	d
+MBR_CMD_MCETHDEV	/home/das/src/socket/mbr_common.h	277;"	d
+MBR_CMD_MCSOURCE	/home/das/src/socket/mbr_common.h	280;"	d
+MBR_CMD_OBS	/home/das/src/socket/mbr_common.h	240;"	d
+MBR_CMD_OFF	/home/das/src/socket/mbr_common.h	220;"	d
+MBR_CMD_ON	/home/das/src/socket/mbr_common.h	219;"	d
+MBR_CMD_PKTOFFSET	/home/das/src/socket/mbr_common.h	264;"	d
+MBR_CMD_REBOOT	/home/das/src/socket/mbr_common.h	252;"	d
+MBR_CMD_RESET	/home/das/src/socket/mbr_common.h	253;"	d
+MBR_CMD_RFHIST	/home/das/src/socket/mbr_common.h	257;"	d
+MBR_CMD_RUN	/home/das/src/socket/mbr_common.h	259;"	d
+MBR_CMD_SAMPCLKFREQ	/home/das/src/socket/mbr_common.h	267;"	d
+MBR_CMD_SAMPCLKFREQ_62D5	/home/das/src/socket/mbr_common.h	269;"	d
+MBR_CMD_SAMPCLKFREQ_66	/home/das/src/socket/mbr_common.h	268;"	d
+MBR_CMD_SET	/home/das/src/socket/mbr_common.h	215;"	d
+MBR_CMD_SHUTDOWN	/home/das/src/socket/mbr_common.h	251;"	d
+MBR_CMD_SOURCE	/home/das/src/socket/mbr_common.h	262;"	d
+MBR_CMD_STOPDAS	/home/das/src/socket/mbr_common.h	254;"	d
+MBR_CMD_TIMESTAMP	/home/das/src/socket/mbr_common.h	270;"	d
+MBR_CMD_TIMESYNC	/home/das/src/socket/mbr_common.h	261;"	d
+MBR_CMD_VALIDATE	/home/das/src/socket/mbr_config.h	25;"	d
+MBR_CMD_VIF	/home/das/src/socket/mbr_common.h	227;"	d
+MBR_CMD_VRF	/home/das/src/socket/mbr_common.h	226;"	d
+MBR_CONFIG_READ	/home/das/src/socket/mbr_common.h	184;"	d
+MBR_CONFIG_UPDATE	/home/das/src/socket/mbr_common.h	185;"	d
+MBR_CONTROL	/home/das/src/socket/mbr_common.h	/^} MBR_CONTROL;$/;"	t	typeref:struct:tagControl
+MBR_CloseFiles	mbr_acquire.cpp	/^void MBR_CloseFiles(void)$/;"	f
+MBR_CloseTermFile	/home/das/src/socket/mbr_common.cpp	/^void MBR_CloseTermFile(void)$/;"	f
+MBR_Command2Packet	/home/das/src/socket/mbr_common.cpp	/^int MBR_Command2Packet(int iDASID,$/;"	f
+MBR_ConfigEntry	/home/das/src/socket/mbr_config.cpp	/^int MBR_ConfigEntry(int iAction,$/;"	f
+MBR_CreateDeviceLookup	/home/das/src/socket/mbr_serialport.cpp	/^int MBR_CreateDeviceLookup(void)$/;"	f
+MBR_DASID_MAX	/home/das/src/socket/mbr_common.h	335;"	d
+MBR_DASID_MIN	/home/das/src/socket/mbr_common.h	334;"	d
+MBR_DAS_GID	mbr_acquire.h	47;"	d
+MBR_DAS_UID	mbr_acquire.h	46;"	d
+MBR_DATAFILE_EXT	mbr_acquire.h	32;"	d
+MBR_DATAMODE_DIAG	/home/das/src/socket/mbr_common.h	187;"	d
+MBR_DATAMODE_OBSV	/home/das/src/socket/mbr_common.h	188;"	d
+MBR_DATA_HEADER_S	mbr_dataheader.h	/^} MBR_DATA_HEADER_S;$/;"	t	typeref:struct:MBR_SDataHeader
+MBR_DATA_HEADER_V0_S	mbr_dataheader_v0.h	/^} MBR_DATA_HEADER_V0_S;$/;"	t	typeref:struct:MBR_SDataHeaderV0
+MBR_DEVID_ATTENUATOR_START	/home/das/src/socket/mbr_common.h	76;"	d
+MBR_DEVID_ATTENUATOR_STOP	/home/das/src/socket/mbr_common.h	77;"	d
+MBR_DEV_SERIALPORT	/home/das/src/socket/mbr_serialport.h	24;"	d
+MBR_DID_DASD	/home/das/src/socket/mbr_common.h	160;"	d
+MBR_DID_MCD	/home/das/src/socket/mbr_common.h	159;"	d
+MBR_DO_ABORT_ALL	/home/das/src/socket/mbr_common.h	69;"	d
+MBR_DO_ABORT_LASTOP	/home/das/src/socket/mbr_common.h	68;"	d
+MBR_DO_PROC_VIEW	/home/das/src/socket/mbr_common.h	67;"	d
+MBR_Daemonise	/home/das/src/socket/mbr_common.cpp	/^int MBR_Daemonise(int iDaemonID)$/;"	f
+MBR_DevClose	/home/das/src/socket/mbr_serialport.cpp	/^void MBR_DevClose()$/;"	f
+MBR_DevWrite	/home/das/src/socket/mbr_serialport.cpp	/^int MBR_DevWrite(int iAddress, int iVal)$/;"	f
+MBR_Download	/home/das/src/socket/mbr_serialport.cpp	/^int MBR_Download(const char *pcParam, const char *pcValue)$/;"	f
+MBR_ENV_HOME	/home/das/src/socket/mbr_common.h	141;"	d
+MBR_ENV_SOURCE	/home/das/src/socket/mbr_common.h	142;"	d
+MBR_ETH_PRIMARY	/home/das/src/socket/mbr_common.h	165;"	d
+MBR_EXE_ACQSNIFF	/home/das/src/socket/mbr_common.h	329;"	d
+MBR_EXE_ACQUIRE	/home/das/src/socket/mbr_common.h	323;"	d
+MBR_EXE_DATE	/home/das/src/socket/mbr_common.h	330;"	d
+MBR_EXE_REBOOT	/home/das/src/socket/mbr_common.h	322;"	d
+MBR_EXE_SHUTDOWN	/home/das/src/socket/mbr_common.h	321;"	d
+MBR_FALSE	/home/das/src/socket/mbr_common.h	56;"	d
+MBR_FALSE	mbr_acqsniff.h	10;"	d
+MBR_FASTEST_DATARATE	mbr_acquire.h	87;"	d
+MBR_FC_ACQ_OFF	/home/das/src/socket/mbr_common.h	/^    MBR_FC_ACQ_OFF = 0x46,          \/* pull ENABLE high *\/$/;"	e	enum:tagFPGACmd
+MBR_FC_ACQ_ON	/home/das/src/socket/mbr_common.h	/^    MBR_FC_ACQ_ON = 0x45,           \/* pull ENABLE low *\/$/;"	e	enum:tagFPGACmd
+MBR_FC_BITPACKMODE_4	/home/das/src/socket/mbr_common.h	/^    MBR_FC_BITPACKMODE_4 = 0x43,$/;"	e	enum:tagFPGACmd
+MBR_FC_BITPACKMODE_8	/home/das/src/socket/mbr_common.h	/^    MBR_FC_BITPACKMODE_8 = 0x44,$/;"	e	enum:tagFPGACmd
+MBR_FC_DATAMODE_DIAG	/home/das/src/socket/mbr_common.h	/^    MBR_FC_DATAMODE_DIAG = 0x41,$/;"	e	enum:tagFPGACmd
+MBR_FC_DATAMODE_OBS	/home/das/src/socket/mbr_common.h	/^    MBR_FC_DATAMODE_OBS = 0x42,$/;"	e	enum:tagFPGACmd
+MBR_FC_GPS_HIGH	/home/das/src/socket/mbr_common.h	/^    MBR_FC_GPS_HIGH = 0x47,$/;"	e	enum:tagFPGACmd
+MBR_FC_GPS_LOW	/home/das/src/socket/mbr_common.h	/^    MBR_FC_GPS_LOW = 0x48,$/;"	e	enum:tagFPGACmd
+MBR_FC_HEADERINFO_HIGH	/home/das/src/socket/mbr_common.h	/^    MBR_FC_HEADERINFO_HIGH = 0x53,$/;"	e	enum:tagFPGACmd
+MBR_FC_HEADERINFO_LOW	/home/das/src/socket/mbr_common.h	/^    MBR_FC_HEADERINFO_LOW = 0x54,$/;"	e	enum:tagFPGACmd
+MBR_FC_RFINFO_HIGH	/home/das/src/socket/mbr_common.h	/^    MBR_FC_RFINFO_HIGH = 0x51,$/;"	e	enum:tagFPGACmd
+MBR_FC_RFINFO_LOW	/home/das/src/socket/mbr_common.h	/^    MBR_FC_RFINFO_LOW = 0x52,$/;"	e	enum:tagFPGACmd
+MBR_FC_TIMESTAMP_HIGH	/home/das/src/socket/mbr_common.h	/^    MBR_FC_TIMESTAMP_HIGH = 0x49,$/;"	e	enum:tagFPGACmd
+MBR_FC_TIMESTAMP_LOW	/home/das/src/socket/mbr_common.h	/^    MBR_FC_TIMESTAMP_LOW = 0x50,$/;"	e	enum:tagFPGACmd
+MBR_FILENPREFIX_DIAG	mbr_acquire.h	27;"	d
+MBR_FILENPREFIX_SNIFFACQ	mbr_acquire.h	28;"	d
+MBR_FILE_DAS_BITMAP	/home/das/src/socket/mbr_serialport.h	59;"	d
+MBR_FILE_DAS_LOOKUP	/home/das/src/socket/mbr_serialport.h	60;"	d
+MBR_FILE_VERSRC	mbr_makever.cpp	14;"	d	file:
+MBR_FPGABIT_ENABLE	/home/das/src/socket/mbr_common.h	210;"	d
+MBR_FPGACMD	/home/das/src/socket/mbr_common.h	/^} MBR_FPGACMD;$/;"	t	typeref:enum:tagFPGACmd
+MBR_Freq2AB	/home/das/src/socket/mbr_serialport.cpp	/^int MBR_Freq2AB(const char *pcValue)$/;"	f
+MBR_FreqSynthInit	/home/das/src/socket/mbr_serialport.cpp	/^int MBR_FreqSynthInit(int iStartBit, int iStopBit)$/;"	f
+MBR_GID_DAS	/home/das/src/socket/mbr_common.h	128;"	d
+MBR_GetAttnFromBitmap	/home/das/src/socket/mbr_serialport.cpp	/^float MBR_GetAttnFromBitmap(const char* pcVal)$/;"	f
+MBR_GetAttribute	/home/das/src/socket/mbr_config.cpp	/^int MBR_GetAttribute(xmlDocPtr pstDoc,$/;"	f
+MBR_GetBits	/home/das/src/socket/mbr_serialport.cpp	/^int MBR_GetBits(char *pcDevice, char *pcBits)$/;"	f
+MBR_GetDataHeader	mbr_dataheader.c	/^MBR_HEADERINFO_S MBR_GetDataHeader(MBR_BYTE *pbPacket)$/;"	f
+MBR_GetLastRFHistEntry	/home/das/src/socket/mbr_common.cpp	/^int MBR_GetLastRFHistEntry(char *pcEntry)$/;"	f
+MBR_GetTimestamp	/home/das/src/socket/mbr_common.cpp	/^char* MBR_GetTimestamp(void)$/;"	f
+MBR_HEADERINFO_S	mbr_dataheader.h	/^} MBR_HEADERINFO_S;$/;"	t	typeref:struct:MBR_SHeaderInfo
+MBR_HandleStopSignals	mbr_acqsniff.cpp	/^void MBR_HandleStopSignals(int iSigNo)$/;"	f
+MBR_HandleStopSignals	mbr_acquire.cpp	/^void MBR_HandleStopSignals(int iSigNo)$/;"	f
+MBR_ID_DEFAULTSERVER	/home/das/src/socket/mbr_common.h	173;"	d
+MBR_ID_MCDPARSER	/home/das/src/socket/mbr_common.h	172;"	d
+MBR_IP_DSP	/home/das/src/socket/mbr_common.h	122;"	d
+MBR_Int2Bitmap	/home/das/src/socket/mbr_common.cpp	/^void MBR_Int2Bitmap(int iNum, char acBitmap[])$/;"	f
+MBR_IsInteger	/home/das/src/socket/mbr_common.cpp	/^bool MBR_IsInteger(float fNum)$/;"	f
+MBR_LEN_BACKLOGQUEUE	/home/das/src/socket/mbr_common.h	99;"	d
+MBR_LEN_CH	mbr_acquire.h	35;"	d
+MBR_LEN_COUNT	mbr_acquire.h	34;"	d
+MBR_LEN_DATAFILE_EXT	mbr_acquire.h	36;"	d
+MBR_LEN_FILENAME	mbr_acquire.h	41;"	d
+MBR_LEN_NAME_PSR	mbr_acquire.h	33;"	d
+MBR_LEN_PREFIX_CH	mbr_acquire.h	31;"	d
+MBR_LEN_SDH_DASID	mbr_dataheader.h	16;"	d
+MBR_LEN_SDH_HEADERINFO	mbr_dataheader.h	17;"	d
+MBR_LEN_SDH_MARKER	mbr_dataheader.h	15;"	d
+MBR_LEN_SDH_V0_DASID	mbr_dataheader_v0.h	10;"	d
+MBR_LEN_SDH_V0_RESERVED	mbr_dataheader_v0.h	11;"	d
+MBR_LEN_TIMESTAMP	/home/das/src/socket/mbr_common.h	102;"	d
+MBR_LEN_TS	mbr_acquire.h	38;"	d
+MBR_LE_HIGH	/home/das/src/socket/mbr_serialport.h	65;"	d
+MBR_LE_LOW	/home/das/src/socket/mbr_serialport.h	66;"	d
+MBR_LongLong2Bitmap	/home/das/src/socket/mbr_serialport.cpp	/^void MBR_LongLong2Bitmap(long long llnum, char acBitmap[])$/;"	f
+MBR_LookUp	/home/das/src/socket/mbr_serialport.h	/^} MBR_LookUp;$/;"	t	typeref:struct:DeviceLookUp
+MBR_LookupHostName	/home/das/src/socket/mbr_common.cpp	/^int MBR_LookupHostName(int iDASID, char *pcHostName)$/;"	f
+MBR_MASK_ATTNFRAC	/home/das/src/socket/mbr_common.h	201;"	d
+MBR_MAX_ATTENUATION	/home/das/src/socket/mbr_common.h	80;"	d
+MBR_MAX_DAS	/home/das/src/socket/mbr_common.h	125;"	d
+MBR_MAX_DEV_ATTENUATORS	/home/das/src/socket/mbr_common.h	75;"	d
+MBR_MAX_LEN_ARG	/home/das/src/socket/mbr_common.h	94;"	d
+MBR_MAX_LEN_GENSTRING	/home/das/src/socket/mbr_common.h	97;"	d
+MBR_MAX_NUM_ARGS	/home/das/src/socket/mbr_common.h	93;"	d
+MBR_MAX_NUM_DEVICES	/home/das/src/socket/mbr_common.h	212;"	d
+MBR_MAX_SIZE_PACKET	/home/das/src/socket/mbr_common.h	91;"	d
+MBR_MCCHNUM	mbr_acquire.h	74;"	d
+MBR_MC_IP	mbr_acqsniff.h	21;"	d
+MBR_MODE_CHECK	mbr_acquire.h	61;"	d
+MBR_MODE_DIAG	mbr_acquire.h	58;"	d
+MBR_MODE_OBS	mbr_acquire.h	57;"	d
+MBR_MODE_SNIFF	mbr_acquire.h	60;"	d
+MBR_MODE_SNIFFACQ	mbr_acquire.h	59;"	d
+MBR_MSG	/home/das/src/socket/mbr_common.h	/^} MBR_MSG;$/;"	t	typeref:struct:tagMsg
+MBR_MSGQH_CMD	/home/das/src/socket/mbr_common.h	347;"	d
+MBR_MSGQH_MASK	/home/das/src/socket/mbr_common.h	350;"	d
+MBR_MSGQH_RET_INFO	/home/das/src/socket/mbr_common.h	348;"	d
+MBR_MSGQ_TIMEOUT	/home/das/src/socket/mbr_common.h	357;"	d
+MBR_MSGQ_TIMEOUT_FLUSH	/home/das/src/socket/mbr_common.h	358;"	d
+MBR_MSGTYPE_CMD	/home/das/src/socket/mbr_common.h	352;"	d
+MBR_MSGTYPE_RET_INFO	/home/das/src/socket/mbr_common.h	353;"	d
+MBR_MSG_DEF_TYPE	/home/das/src/socket/mbr_common.h	176;"	d
+MBR_NAME_PSR	mbr_acquire.h	30;"	d
+MBR_NODE_ROOT_DAS	/home/das/src/socket/mbr_config.h	21;"	d
+MBR_NODE_ROOT_MC	/home/das/src/socket/mbr_config.h	22;"	d
+MBR_NODE_TEXT	/home/das/src/socket/mbr_config.h	20;"	d
+MBR_NUM_BIT	/home/das/src/socket/mbr_serialport.h	26;"	d
+MBR_NUM_BITS_ATTENUATOR	/home/das/src/socket/mbr_serialport.h	73;"	d
+MBR_NUM_BITS_LOFREQ	/home/das/src/socket/mbr_serialport.h	74;"	d
+MBR_OpenErrLog	/home/das/src/socket/mbr_common.cpp	/^int MBR_OpenErrLog(bool bDASOwned)$/;"	f
+MBR_OpenFiles	mbr_acquire.cpp	/^int MBR_OpenFiles(void)$/;"	f
+MBR_OpenTermFile	/home/das/src/socket/mbr_common.cpp	/^int MBR_OpenTermFile(void)$/;"	f
+MBR_PACKET	/home/das/src/socket/mbr_common.h	/^} MBR_PACKET;$/;"	t	typeref:struct:tagPacket
+MBR_PATH_BIN	/home/das/src/socket/mbr_common.h	146;"	d
+MBR_PATH_DASMAP	/home/das/src/socket/mbr_common.h	145;"	d
+MBR_PATH_ERRORLOG	/home/das/src/socket/mbr_common.h	147;"	d
+MBR_PATH_HELPFILE	/home/das/src/socket/mbr_common.h	150;"	d
+MBR_PATH_KILLSCRIPT	mbr_acquire.h	15;"	d
+MBR_PATH_LOCKFILE	mbr_acquire.h	14;"	d
+MBR_PATH_MSGQKEYFILE	/home/das/src/socket/mbr_common.h	143;"	d
+MBR_PATH_PIDFILEDIR	/home/das/src/socket/mbr_common.h	144;"	d
+MBR_PATH_RFHIST	/home/das/src/socket/mbr_common.h	149;"	d
+MBR_PATH_TERMFILE	/home/das/src/socket/mbr_common.h	148;"	d
+MBR_PATH_VER	mbr_makever.cpp	13;"	d	file:
+MBR_PATH_XML_DAS	/home/das/src/socket/mbr_config.h	23;"	d
+MBR_PATH_XML_MC	/home/das/src/socket/mbr_config.h	24;"	d
+MBR_PCAP_USER	mbr_acquire.h	48;"	d
+MBR_PCAP_USER	mbr_acquire.h	83;"	d
+MBR_PIDFNAME_DASD	/home/das/src/socket/mbr_common.h	162;"	d
+MBR_PIDFNAME_MCD	/home/das/src/socket/mbr_common.h	161;"	d
+MBR_PORT_DAS	/home/das/src/socket/mbr_common.h	115;"	d
+MBR_PORT_DATA	mbr_acqsniff.h	19;"	d
+MBR_PORT_DSP	/home/das/src/socket/mbr_common.h	119;"	d
+MBR_PORT_DST_RAWDATA	/home/das/src/socket/mbr_common.h	117;"	d
+MBR_PORT_DST_SNIFFDATA	/home/das/src/socket/mbr_common.h	118;"	d
+MBR_PORT_MCDPARSER	/home/das/src/socket/mbr_common.h	113;"	d
+MBR_PORT_SRC_RAWDATA	/home/das/src/socket/mbr_common.h	116;"	d
+MBR_PORT_USEMAX	/home/das/src/socket/mbr_common.h	112;"	d
+MBR_PORT_USEMIN	/home/das/src/socket/mbr_common.h	111;"	d
+MBR_POS_ETH_ID	/home/das/src/socket/mbr_common.h	196;"	d
+MBR_PREFIX_CH	mbr_acquire.h	29;"	d
+MBR_PREFIX_ETHDEV	/home/das/src/socket/mbr_common.h	195;"	d
+MBR_Packet2Command	/home/das/src/socket/mbr_common.cpp	/^int MBR_Packet2Command(MBR_PACKET stCommand, int *piArgc, char *apcArgv[])$/;"	f
+MBR_ParseDoc	/home/das/src/socket/mbr_config.cpp	/^int MBR_ParseDoc(const char *pcConfigFile,$/;"	f
+MBR_PrintUsage	mbr_acqsniff.cpp	/^void MBR_PrintUsage(const char *pcProgName)$/;"	f
+MBR_PrintUsage	mbr_acquire.cpp	/^void MBR_PrintUsage(const char *pcProgName)$/;"	f
+MBR_ProcessPacket	mbr_acquire.cpp	/^void MBR_ProcessPacket(u_char *pcUser,$/;"	f
+MBR_RETSTRING_DASDOWN	/home/das/src/socket/mbr_common.h	170;"	d
+MBR_RETSTRING_ERROR	/home/das/src/socket/mbr_common.h	167;"	d
+MBR_RETSTRING_INVALIDCMD	/home/das/src/socket/mbr_common.h	168;"	d
+MBR_RETSTRING_TIMEOUT	/home/das/src/socket/mbr_common.h	169;"	d
+MBR_RET_CLEANUP	/home/das/src/socket/mbr_common.h	53;"	d
+MBR_RET_ENTRYNOTFOUND	/home/das/src/socket/mbr_common.h	51;"	d
+MBR_RET_ERROR	/home/das/src/socket/mbr_common.h	48;"	d
+MBR_RET_ERROR_SYS	/home/das/src/socket/mbr_common.h	49;"	d
+MBR_RET_INFO	/home/das/src/socket/mbr_common.h	406;"	d
+MBR_RET_PEERSHUTDOWN	/home/das/src/socket/mbr_common.h	50;"	d
+MBR_RET_SUCCESS	/home/das/src/socket/mbr_common.h	47;"	d
+MBR_RET_WARNING	/home/das/src/socket/mbr_common.h	52;"	d
+MBR_RFHIST_ATTEN1	/home/das/src/socket/mbr_common.h	84;"	d
+MBR_RFHIST_ATTEN2	/home/das/src/socket/mbr_common.h	85;"	d
+MBR_RFHIST_ATTEN3	/home/das/src/socket/mbr_common.h	86;"	d
+MBR_RFHIST_ATTEN4	/home/das/src/socket/mbr_common.h	87;"	d
+MBR_RFHIST_LOFREQ	/home/das/src/socket/mbr_common.h	88;"	d
+MBR_RFHIST_NUM_FIELDS	/home/das/src/socket/mbr_common.h	83;"	d
+MBR_RF_VALS_S	mbr_acquire.h	/^} MBR_RF_VALS_S;$/;"	t	typeref:struct:tagRFVals
+MBR_RUN_LOCAL	/home/das/src/socket/mbr_common.h	338;"	d
+MBR_RUN_MODE	/home/das/src/socket/mbr_common.h	345;"	d
+MBR_RUN_NETWORK	/home/das/src/socket/mbr_common.h	341;"	d
+MBR_SAMPINT	mbr_acquire.h	71;"	d
+MBR_SAMPOFFSET	mbr_acquire.h	72;"	d
+MBR_SDH_GetAtten1Pos	mbr_dataheader.h	78;"	d
+MBR_SDH_GetAtten1Val	mbr_dataheader.h	90;"	d
+MBR_SDH_GetAtten2Val	mbr_dataheader.h	94;"	d
+MBR_SDH_GetAtten3Val	mbr_dataheader.h	98;"	d
+MBR_SDH_GetAtten4Val	mbr_dataheader.h	102;"	d
+MBR_SDH_GetBitPacking	mbr_dataheader.h	112;"	d
+MBR_SDH_GetCount	mbr_dataheader.h	116;"	d
+MBR_SDH_GetDASID	mbr_dataheader.h	89;"	d
+MBR_SDH_GetDataMode	mbr_dataheader.h	113;"	d
+MBR_SDH_GetEnableBit	mbr_dataheader.h	111;"	d
+MBR_SDH_GetFPGAStatusPos	mbr_dataheader.h	82;"	d
+MBR_SDH_GetGPS	mbr_dataheader.h	115;"	d
+MBR_SDH_GetGPSStatusBit	mbr_dataheader.h	114;"	d
+MBR_SDH_GetLOFreq	mbr_dataheader.h	106;"	d
+MBR_SDH_GetResetBit	mbr_dataheader.h	110;"	d
+MBR_SDH_GetSampClkStatusBit	mbr_dataheader.h	108;"	d
+MBR_SDH_GetSyncBit	mbr_dataheader.h	109;"	d
+MBR_SDH_GetTimestampBit	mbr_dataheader.h	107;"	d
+MBR_SDH_MARKER	mbr_dataheader.h	12;"	d
+MBR_SDH_MARKER_V0	mbr_dataheader.h	13;"	d
+MBR_SDH_MASKATTENFRAC	mbr_dataheader.h	74;"	d
+MBR_SDH_SIZE_ATTENUATORS	mbr_dataheader.h	34;"	d
+MBR_SDH_V0_GetADCClockStatus	mbr_dataheader_v0.h	89;"	d
+MBR_SDH_V0_GetAtten1Pos	mbr_dataheader_v0.h	53;"	d
+MBR_SDH_V0_GetAtten1Val	mbr_dataheader_v0.h	63;"	d
+MBR_SDH_V0_GetAtten2Val	mbr_dataheader_v0.h	68;"	d
+MBR_SDH_V0_GetAtten3Val	mbr_dataheader_v0.h	73;"	d
+MBR_SDH_V0_GetAtten4Val	mbr_dataheader_v0.h	78;"	d
+MBR_SDH_V0_GetBitPacking	mbr_dataheader_v0.h	87;"	d
+MBR_SDH_V0_GetCount	mbr_dataheader_v0.h	91;"	d
+MBR_SDH_V0_GetDASID	mbr_dataheader_v0.h	62;"	d
+MBR_SDH_V0_GetEnableBit	mbr_dataheader_v0.h	84;"	d
+MBR_SDH_V0_GetFPGAStatusPos	mbr_dataheader_v0.h	55;"	d
+MBR_SDH_V0_GetGPS	mbr_dataheader_v0.h	90;"	d
+MBR_SDH_V0_GetMode	mbr_dataheader_v0.h	88;"	d
+MBR_SDH_V0_GetProgramStatus	mbr_dataheader_v0.h	85;"	d
+MBR_SDH_V0_GetResetBit	mbr_dataheader_v0.h	83;"	d
+MBR_SDH_V0_GetSyncBit	mbr_dataheader_v0.h	86;"	d
+MBR_SDH_V0_MASKATTENFRAC	mbr_dataheader_v0.h	49;"	d
+MBR_SDH_V0_SIZE_ATTENUATORS	mbr_dataheader_v0.h	27;"	d
+MBR_SDataHeader	mbr_dataheader.h	/^typedef struct MBR_SDataHeader$/;"	s
+MBR_SDataHeaderV0	mbr_dataheader_v0.h	/^typedef struct MBR_SDataHeaderV0$/;"	s
+MBR_SEC_IN_12_HOURS	/home/das/src/socket/mbr_common.h	105;"	d
+MBR_SHELL	/home/das/src/socket/mbr_common.h	153;"	d
+MBR_SHELL_OPT	/home/das/src/socket/mbr_common.h	156;"	d
+MBR_SHeaderInfo	mbr_dataheader.h	/^typedef struct MBR_SHeaderInfo$/;"	s
+MBR_SIZE_HEADERINFO	/home/das/src/socket/mbr_common.h	365;"	d
+MBR_SIZE_WRITE	/home/das/src/socket/mbr_serialport.h	25;"	d
+MBR_SOCKTYPE_CLIENT	/home/das/src/socket/mbr_common.h	61;"	d
+MBR_SOCKTYPE_SERVER	/home/das/src/socket/mbr_common.h	60;"	d
+MBR_STATUS_OFF	/home/das/src/socket/mbr_common.h	181;"	d
+MBR_STATUS_ON	/home/das/src/socket/mbr_common.h	180;"	d
+MBR_STRING_LOCAL	/home/das/src/socket/mbr_common.h	178;"	d
+MBR_SerialPortInit	/home/das/src/socket/mbr_serialport.cpp	/^int MBR_SerialPortInit(void)$/;"	f
+MBR_SetBits	/home/das/src/socket/mbr_serialport.cpp	/^int MBR_SetBits(int iStartBit, int iStopBit, int iValue, long long *pllBitmap)$/;"	f
+MBR_SysLog	/home/das/src/socket/mbr_common.h	369;"	d
+MBR_TRUE	/home/das/src/socket/mbr_common.h	57;"	d
+MBR_TRUE	mbr_acqsniff.h	11;"	d
+MBR_UID_DAS	/home/das/src/socket/mbr_common.h	127;"	d
+MBR_USERAM_CHECK	mbr_acquire.h	67;"	d
+MBR_USERAM_DIAG	mbr_acquire.h	64;"	d
+MBR_USERAM_OBS	mbr_acquire.h	63;"	d
+MBR_USERAM_SNIFF	mbr_acquire.h	66;"	d
+MBR_USERAM_SNIFFACQ	mbr_acquire.h	65;"	d
+MBR_VAR_VER	mbr_makever.cpp	15;"	d	file:
+MBR_VER_BUILD_DELIM	mbr_makever.cpp	16;"	d	file:
+MBR_WriteBitmap	/home/das/src/socket/mbr_serialport.cpp	/^int MBR_WriteBitmap(long long llBitmap)$/;"	f
+MBR_XML_ATT_ACQMODE	/home/das/src/socket/mbr_common.h	312;"	d
+MBR_XML_ATT_BITPACKMODE	/home/das/src/socket/mbr_common.h	313;"	d
+MBR_XML_ATT_DATAMODE	/home/das/src/socket/mbr_common.h	303;"	d
+MBR_XML_ATT_DEVICE	/home/das/src/socket/mbr_common.h	305;"	d
+MBR_XML_ATT_DURATION	/home/das/src/socket/mbr_common.h	302;"	d
+MBR_XML_ATT_DWELL	/home/das/src/socket/mbr_common.h	310;"	d
+MBR_XML_ATT_FREQ	/home/das/src/socket/mbr_common.h	306;"	d
+MBR_XML_ATT_ID	/home/das/src/socket/mbr_common.h	298;"	d
+MBR_XML_ATT_LIVE	/home/das/src/socket/mbr_common.h	299;"	d
+MBR_XML_ATT_MAX	/home/das/src/socket/mbr_common.h	308;"	d
+MBR_XML_ATT_MIN	/home/das/src/socket/mbr_common.h	307;"	d
+MBR_XML_ATT_NAME	/home/das/src/socket/mbr_common.h	300;"	d
+MBR_XML_ATT_NODEID	/home/das/src/socket/mbr_common.h	315;"	d
+MBR_XML_ATT_OFFSET	/home/das/src/socket/mbr_common.h	304;"	d
+MBR_XML_ATT_SAMPCLKFREQ	/home/das/src/socket/mbr_common.h	314;"	d
+MBR_XML_ATT_STATUS	/home/das/src/socket/mbr_common.h	301;"	d
+MBR_XML_ATT_STEP	/home/das/src/socket/mbr_common.h	309;"	d
+MBR_XML_ATT_VALUE	/home/das/src/socket/mbr_common.h	311;"	d
+MBR_XML_ENT_ACQUISITION	/home/das/src/socket/mbr_common.h	286;"	d
+MBR_XML_ENT_ATTENUATOR	/home/das/src/socket/mbr_common.h	288;"	d
+MBR_XML_ENT_ATTENUATOR1	/home/das/src/socket/mbr_common.h	289;"	d
+MBR_XML_ENT_ATTENUATOR2	/home/das/src/socket/mbr_common.h	290;"	d
+MBR_XML_ENT_ATTENUATOR3	/home/das/src/socket/mbr_common.h	291;"	d
+MBR_XML_ENT_ATTENUATOR4	/home/das/src/socket/mbr_common.h	292;"	d
+MBR_XML_ENT_DAS	/home/das/src/socket/mbr_common.h	295;"	d
+MBR_XML_ENT_FPGA	/home/das/src/socket/mbr_common.h	293;"	d
+MBR_XML_ENT_LO	/home/das/src/socket/mbr_common.h	287;"	d
+MBR_XML_ENT_MASTER	/home/das/src/socket/mbr_common.h	294;"	d
+MBR_XML_ENT_SOURCE	/home/das/src/socket/mbr_common.h	285;"	d
+MBR_XML_LIVE_NO	/home/das/src/socket/mbr_common.h	318;"	d
+MBR_XML_LIVE_YES	/home/das/src/socket/mbr_common.h	317;"	d
+MODE_PROMISC	mbr_acquire.h	26;"	d
+P	/home/das/src/socket/mbr_serialport.h	77;"	d
+POS_CURRENT	mbr_acquire.h	81;"	d
+POS_PKTCOUNT	mbr_acquire.h	82;"	d
+POS_PREV	mbr_acquire.h	80;"	d
+Pop	/home/das/src/socket/mbr_common.cpp	/^MBR_MSG* CMsgQ::Pop(int iMsgType, bool bIsFlushing)$/;"	f	class:CMsgQ
+Push	/home/das/src/socket/mbr_common.cpp	/^int CMsgQ::Push(MBR_MSG stMsg)$/;"	f	class:CMsgQ
+R	/home/das/src/socket/mbr_serialport.h	69;"	d
+Receive	/home/das/src/socket/mbr_common.cpp	/^int CSocket::Receive(MBR_PACKET *pstPacket)$/;"	f	class:CSocket
+RetInfo_acRet	/home/das/src/socket/mbr_common.h	402;"	d
+RetInfo_iRet	/home/das/src/socket/mbr_common.h	399;"	d
+SIZE_FULL_PACKET	mbr_acquire.h	21;"	d
+SIZE_PACKET	mbr_acqsniff.h	13;"	d
+SIZE_PACKET	mbr_acquire.h	20;"	d
+Send	/home/das/src/socket/mbr_common.cpp	/^int CSocket::Send(MBR_CONTROL stControl)$/;"	f	class:CSocket
+Send	/home/das/src/socket/mbr_common.cpp	/^int CSocket::Send(MBR_PACKET stPacket)$/;"	f	class:CSocket
+TIMEOUT	mbr_acquire.h	25;"	d
+UpdateConfigFile	/home/das/src/socket/mbr_config.cpp	/^int UpdateConfigFile(const char *pcConfigFile,$/;"	f
+__DAS_H__	das.h	10;"	d
+__DAS_SHM_H__	das_shm.h	11;"	d
+__MBR_ACQSNIFF_H__	mbr_acqsniff.h	8;"	d
+__MBR_ACQUIRE_H__	mbr_acquire.h	12;"	d
+__MBR_COMMON_H__	/home/das/src/socket/mbr_common.h	14;"	d
+__MBR_CONFIG_H__	/home/das/src/socket/mbr_config.h	14;"	d
+__MBR_DATAHEADER_H__	mbr_dataheader.h	10;"	d
+__MBR_DATAHEADER_V0_H__	mbr_dataheader_v0.h	8;"	d
+__MBR_SERIALPORT_H__	/home/das/src/socket/mbr_serialport.h	16;"	d
+acDASID	mbr_dataheader.h	/^    char acDASID[MBR_LEN_SDH_DASID];        \/* 'XX' *\/$/;"	m	struct:MBR_SDataHeader
+acDASID	mbr_dataheader_v0.h	/^    char acDASID[MBR_LEN_SDH_V0_DASID];         \/* 'DSPXX' *\/$/;"	m	struct:MBR_SDataHeaderV0
+acDataFile	das.h	/^    char        acDataFile[DAS_LEN_STRING];$/;"	m	struct:tag_DAS_Header
+acDevice	/home/das/src/socket/mbr_serialport.h	/^    char acDevice[MBR_MAX_LEN_GENSTRING];$/;"	m	struct:DeviceLookUp
+acHdrInfo	mbr_dataheader.h	/^    char acHdrInfo[MBR_LEN_SDH_HEADERINFO]; \/* header info, including source$/;"	m	struct:MBR_SDataHeader
+acMarker	mbr_dataheader.h	/^    char acMarker[MBR_LEN_SDH_MARKER];      \/* MBRDSP *\/$/;"	m	struct:MBR_SDataHeader
+acObserverName	das.h	/^    char        acObserverName[DAS_LEN_STRING];$/;"	m	struct:tag_DAS_Header
+acPulsarName	das.h	/^    char        acPulsarName[DAS_LEN_STRING];$/;"	m	struct:tag_DAS_Header
+acReserved	mbr_dataheader_v0.h	/^    char acReserved[MBR_LEN_SDH_V0_RESERVED];   \/* reserved bytes *\/$/;"	m	struct:MBR_SDataHeaderV0
+acSiteName	das.h	/^    char        acSiteName[DAS_LEN_STRING];$/;"	m	struct:tag_DAS_Header
+acString	/home/das/src/socket/mbr_common.h	/^    char acString[MBR_MAX_LEN_GENSTRING];$/;"	m	struct:tagPacket
+dBandwidth1	das.h	/^    double      dBandwidth1;$/;"	m	struct:tag_DAS_Header
+dBandwidth2	das.h	/^    double      dBandwidth2;$/;"	m	struct:tag_DAS_Header
+fAtten1Val	mbr_dataheader.h	/^    float fAtten1Val;$/;"	m	struct:MBR_SHeaderInfo
+fAtten2Val	mbr_dataheader.h	/^    float fAtten2Val;$/;"	m	struct:MBR_SHeaderInfo
+fAtten3Val	mbr_dataheader.h	/^    float fAtten3Val;$/;"	m	struct:MBR_SHeaderInfo
+fAtten4Val	mbr_dataheader.h	/^    float fAtten4Val;$/;"	m	struct:MBR_SHeaderInfo
+fDM	das.h	/^    float       fDM;$/;"	m	struct:tag_DAS_Header
+fFreqCentre1	das.h	/^    float       fFreqCentre1;$/;"	m	struct:tag_DAS_Header
+fFreqCentre2	das.h	/^    float       fFreqCentre2;$/;"	m	struct:tag_DAS_Header
+fFreqIFCh11	das.h	/^    float       fFreqIFCh11;$/;"	m	struct:tag_DAS_Header
+fFreqIFCh12	das.h	/^    float       fFreqIFCh12;$/;"	m	struct:tag_DAS_Header
+fFreqIFCh21	das.h	/^    float       fFreqIFCh21;$/;"	m	struct:tag_DAS_Header
+fFreqIFCh22	das.h	/^    float       fFreqIFCh22;$/;"	m	struct:tag_DAS_Header
+fFreqLOCh11	das.h	/^    float       fFreqLOCh11;$/;"	m	struct:tag_DAS_Header
+fFreqLOCh12	das.h	/^    float       fFreqLOCh12;$/;"	m	struct:tag_DAS_Header
+fFreqLOCh21	das.h	/^    float       fFreqLOCh21;$/;"	m	struct:tag_DAS_Header
+fFreqLOCh22	das.h	/^    float       fFreqLOCh22;$/;"	m	struct:tag_DAS_Header
+fFreqRef	das.h	/^    float       fFreqRef;$/;"	m	struct:tag_DAS_Header
+fOnOffset	das.h	/^    float       fOnOffset;$/;"	m	struct:tag_DAS_Header
+fPSync	das.h	/^    float       fPSync;$/;"	m	struct:tag_DAS_Header
+g_DeviceLookUp	/home/das/src/socket/mbr_serialport.cpp	/^MBR_LookUp g_DeviceLookUp[MBR_MAX_NUM_DEVICES] = {{{0}}};$/;"	v
+g_ErrLog	/home/das/src/socket/mbr_common.cpp	/^fstream g_ErrLog;                               \/* the error log file *\/$/;"	v
+g_acChannel	mbr_acquire.cpp	/^char g_acChannel[MBR_MAX_LEN_GENSTRING] = {0};$/;"	v
+g_acSourceName	mbr_acquire.cpp	/^char g_acSourceName[MBR_MAX_LEN_GENSTRING] = {0};$/;"	v
+g_acTimestamp	/home/das/src/socket/mbr_common.cpp	/^char g_acTimestamp[MBR_LEN_TIMESTAMP+1] = {0};  \/* the global timestamp string$/;"	v
+g_aiFiles	mbr_acquire.cpp	/^int g_aiFiles[MAX_NUM_FILES] = {0};$/;"	v
+g_aiSlips	mbr_acquire.cpp	/^int g_aiSlips[MAX_NUM_SLIPS][MAX_NUM_INFOITEMS] = {{0}};$/;"	v
+g_iAcqMode	mbr_acquire.cpp	/^int g_iAcqMode = MBR_MODE_OBS;   \/* default is MBR_MODE_OBS *\/$/;"	v
+g_iBuffer	mbr_acquire.cpp	/^int g_iBuffer = 0;$/;"	v
+g_iBufferChange	mbr_acquire.cpp	/^int g_iBufferChange = 0;$/;"	v
+g_iCurrentFile	mbr_acquire.cpp	/^int g_iCurrentFile = 0;$/;"	v
+g_iCurrentFileIndex	mbr_acquire.cpp	/^int g_iCurrentFileIndex = 0;$/;"	v
+g_iCurrentMarker	mbr_acquire.cpp	/^int g_iCurrentMarker = 0;$/;"	v
+g_iFirstIter	mbr_acquire.cpp	/^int g_iFirstIter = DAS_TRUE;$/;"	v
+g_iFlagFirst	das_shm.c	/^int g_iFlagFirst = DAS_TRUE;$/;"	v
+g_iLockFile	mbr_acquire.cpp	/^int g_iLockFile = 0;$/;"	v
+g_iNumDevice	/home/das/src/socket/mbr_serialport.cpp	/^int g_iNumDevice = 0;$/;"	v
+g_iNumFiles	mbr_acquire.cpp	/^int g_iNumFiles = 1;                \/* default is 1 file *\/$/;"	v
+g_iPacketCount	mbr_acquire.cpp	/^int g_iPacketCount = 0;$/;"	v
+g_iPrevMarker	mbr_acquire.cpp	/^int g_iPrevMarker = 0;$/;"	v
+g_iSampOffset	mbr_acquire.cpp	/^int g_iSampOffset = 0;$/;"	v
+g_iSerialPort	/home/das/src/socket/mbr_serialport.cpp	/^int g_iSerialPort = 0;$/;"	v
+g_iSlipCount	mbr_acquire.cpp	/^int g_iSlipCount = 0;$/;"	v
+g_iSocket	mbr_acqsniff.cpp	/^int g_iSocket = 0;$/;"	v
+g_iTermFile	/home/das/src/socket/mbr_common.cpp	/^int g_iTermFile = 0;$/;"	v
+g_iTime	mbr_acquire.cpp	/^int g_iTime = 1;                    \/* default is 1 minute *\/$/;"	v
+g_pBasePointer	mbr_acquire.cpp	/^DAS_SHM_DATATYPE *g_pBasePointer = NULL;$/;"	v
+g_pBufBase	mbr_acquire.cpp	/^DAS_SHM_DATATYPE *g_pBufBase[DAS_NUM_BUFS] = {NULL};$/;"	v
+g_pWritePointer	mbr_acquire.cpp	/^DAS_SHM_DATATYPE *g_pWritePointer = NULL;$/;"	v
+g_pcVersion	mbr_version.cpp	/^const char *g_pcVersion = "ACQUIRE-REL-20090429-005657";$/;"	v
+g_pstHandle	mbr_acquire.cpp	/^pcap_t *g_pstHandle = NULL;$/;"	v
+g_pstShmInfo	mbr_acquire.cpp	/^DAS_SHMINFO_S *g_pstShmInfo = NULL;$/;"	v
+g_stBlockAdds	mbr_acquire.cpp	/^DAS_BLOCKADDS_S g_stBlockAdds[DAS_NUM_BUFS] = {{0}};$/;"	v
+iAtten1	mbr_acquire.h	/^    unsigned int iAtten1:6;$/;"	m	struct:tagRFVals
+iAtten1Val	mbr_dataheader.h	/^    MBR_BYTE iAtten1Val;                    \/* Channel V RF attenuation *\/$/;"	m	struct:MBR_SDataHeader
+iAtten1Val	mbr_dataheader_v0.h	/^    unsigned short int iAtten1Val:6;            \/* Channel V RF attenuation *\/$/;"	m	struct:MBR_SDataHeaderV0
+iAtten2	mbr_acquire.h	/^    unsigned int iAtten2:6;$/;"	m	struct:tagRFVals
+iAtten2Val	mbr_dataheader.h	/^    MBR_BYTE iAtten2Val;                    \/* Channel V IF attenuation *\/$/;"	m	struct:MBR_SDataHeader
+iAtten2Val	mbr_dataheader_v0.h	/^    unsigned short int iAtten2Val:6;            \/* Channel V IF attenuation *\/$/;"	m	struct:MBR_SDataHeaderV0
+iAtten3	mbr_acquire.h	/^    unsigned int iAtten3:6;$/;"	m	struct:tagRFVals
+iAtten3Val	mbr_dataheader.h	/^    MBR_BYTE iAtten3Val;                    \/* Channel H RF attenuation *\/$/;"	m	struct:MBR_SDataHeader
+iAtten3Val	mbr_dataheader_v0.h	/^    unsigned short int iAtten3Val:6;            \/* Channel H RF attenuation *\/$/;"	m	struct:MBR_SDataHeaderV0
+iAtten4	mbr_acquire.h	/^    unsigned int iAtten4:6;$/;"	m	struct:tagRFVals
+iAtten4Val	mbr_dataheader.h	/^    MBR_BYTE iAtten4Val;                    \/* Channel H IF attenuation *\/$/;"	m	struct:MBR_SDataHeader
+iAtten4Val	mbr_dataheader_v0.h	/^    unsigned short int iAtten4Val:6;            \/* Channel H IF attenuation *\/$/;"	m	struct:MBR_SDataHeaderV0
+iBitPacking	mbr_dataheader.h	/^    int iBitPacking;$/;"	m	struct:MBR_SHeaderInfo
+iBitPacking	mbr_dataheader.h	/^    unsigned short int iBitPacking: 2;      \/* FPGA status - bit packing *\/$/;"	m	struct:MBR_SDataHeader
+iBitPacking	mbr_dataheader_v0.h	/^    unsigned short int iBitPacking: 2;          \/* FPGA status - bit packing *\/$/;"	m	struct:MBR_SDataHeaderV0
+iBlockID	das_shm.h	/^    int iBlockID;                       \/* block ID of this block *\/$/;"	m	struct:tag_DAS_Block
+iBlockShmID	das_shm.h	/^    int iBlockShmID;                    \/* shmid of this block *\/$/;"	m	struct:tag_DAS_Block
+iClock	mbr_dataheader_v0.h	/^    unsigned short int iClock: 1;               \/* FPGA status - ADC clock$/;"	m	struct:MBR_SDataHeaderV0
+iCmd	/home/das/src/socket/mbr_common.h	/^    int iCmd;   \/* usually contains control packet ID, but may also contain$/;"	m	struct:tagControl
+iCmd2	/home/das/src/socket/mbr_common.h	/^    int iCmd2;  \/* used if the 4 bytes provided by iCmd is not sufficient *\/$/;"	m	struct:tagControl
+iCmd3	/home/das/src/socket/mbr_common.h	/^    int iCmd3;  \/* used if the 8 bytes provided by iCmd and iCmd2 together, is$/;"	m	struct:tagControl
+iConfigStatus	das_shm.h	/^    int iConfigStatus;          \/* status of config file *\/$/;"	m	struct:tag_DAS_ShmInfo
+iCount	mbr_dataheader.h	/^    int iCount;$/;"	m	struct:MBR_SHeaderInfo
+iCount	mbr_dataheader.h	/^    unsigned int       iCount;              \/* counter value *\/$/;"	m	struct:MBR_SDataHeader
+iCount	mbr_dataheader_v0.h	/^    unsigned int       iCount;                  \/* counter value *\/$/;"	m	struct:MBR_SDataHeaderV0
+iDASID	mbr_dataheader.h	/^    int iDASID;$/;"	m	struct:MBR_SHeaderInfo
+iDataMode	mbr_dataheader.h	/^    int iDataMode;$/;"	m	struct:MBR_SHeaderInfo
+iDataMode	mbr_dataheader.h	/^    unsigned short int iDataMode: 2;        \/* FPGA status - data mode *\/$/;"	m	struct:MBR_SDataHeader
+iDataShmID	das_shm.h	/^    int iDataShmID;                     \/* shmid of the data *\/$/;"	m	struct:tag_DAS_Block
+iEnable	mbr_dataheader.h	/^    int iEnable;$/;"	m	struct:MBR_SHeaderInfo
+iEnable	mbr_dataheader.h	/^    unsigned short int iEnable: 1;          \/* FPGA status - enable bit *\/$/;"	m	struct:MBR_SDataHeader
+iEnable	mbr_dataheader_v0.h	/^    unsigned short int iEnable: 1;              \/* FPGA status - enable bit *\/$/;"	m	struct:MBR_SDataHeaderV0
+iFirstBlockID	das_shm.h	/^    int iFirstBlockID;          \/* the first block ID *\/$/;"	m	struct:tag_DAS_ShmInfo
+iFlagData	das_shm.h	/^    int iFlagData;$/;"	m	struct:tag_DAS_Block
+iGPS	mbr_dataheader.h	/^    int iGPS;$/;"	m	struct:MBR_SHeaderInfo
+iGPS	mbr_dataheader.h	/^    unsigned short int iGPS;                \/* GPS pulse *\/$/;"	m	struct:MBR_SDataHeader
+iGPS	mbr_dataheader_v0.h	/^    unsigned short int iGPS;                    \/* GPS pulse *\/$/;"	m	struct:MBR_SDataHeaderV0
+iGPSStatus	mbr_dataheader.h	/^    int iGPSStatus;$/;"	m	struct:MBR_SHeaderInfo
+iGPSStatus	mbr_dataheader.h	/^    unsigned short int iGPSStatus: 1;       \/* FPGA status - GPS status *\/$/;"	m	struct:MBR_SDataHeader
+iHeaderInfoShmID	das_shm.h	/^    int iHeaderInfoShmID;       \/* shmid of the header info *\/$/;"	m	struct:tag_DAS_ShmHeader
+iHighestBlockID	das_shm.h	/^    int iHighestBlockID;        \/* the highest block ID so far *\/$/;"	m	struct:tag_DAS_ShmInfo
+iInt	/home/das/src/socket/mbr_common.h	/^    int iInt;$/;"	m	struct:tagPacket
+iLOFreq	mbr_acquire.h	/^    short int iLOFreq;$/;"	m	struct:tagRFVals
+iLOFreq	mbr_dataheader.h	/^    int iLOFreq;$/;"	m	struct:MBR_SHeaderInfo
+iLOFreq	mbr_dataheader.h	/^    unsigned short int iLOFreq;             \/* LO frequency *\/$/;"	m	struct:MBR_SDataHeader
+iLOFreq	mbr_dataheader_v0.h	/^    unsigned short int iLOFreq;                 \/* LO frequency *\/$/;"	m	struct:MBR_SDataHeaderV0
+iLastShmAdd	das_shm.h	/^    int iLastShmAdd;$/;"	m	struct:tag_DAS_Block
+iMarkerInterval	das.h	/^    int         iMarkerInterval;    \/* marker interval in words (to be converted to bytes) *\/$/;"	m	struct:tag_DAS_Header
+iMode	mbr_dataheader_v0.h	/^    unsigned short int iMode: 2;                \/* FPGA status - mode *\/$/;"	m	struct:MBR_SDataHeaderV0
+iNumBits	das.h	/^    int         iNumBits;$/;"	m	struct:tag_DAS_Header
+iNumBlocks	das_shm.h	/^    int iNumBlocks;             \/* number of allocated blocks *\/$/;"	m	struct:tag_DAS_ShmInfo
+iNumRFChannels	das.h	/^    int         iNumRFChannels;$/;"	m	struct:tag_DAS_Header
+iProgram	mbr_dataheader_v0.h	/^    unsigned short int iProgram: 1;             \/* FPGA status - program$/;"	m	struct:MBR_SDataHeaderV0
+iReserved	mbr_dataheader.h	/^    unsigned short int iReserved: 6;        \/* reserved bits *\/$/;"	m	struct:MBR_SDataHeader
+iReserved	mbr_dataheader_v0.h	/^    unsigned short int iReserved: 7;            \/* reserved bits *\/$/;"	m	struct:MBR_SDataHeaderV0
+iReset	mbr_dataheader.h	/^    int iReset;$/;"	m	struct:MBR_SHeaderInfo
+iReset	mbr_dataheader.h	/^    unsigned short int iReset: 1;           \/* FPGA status - reset bit *\/$/;"	m	struct:MBR_SDataHeader
+iReset	mbr_dataheader_v0.h	/^    unsigned short int iReset: 1;               \/* FPGA status - reset bit *\/$/;"	m	struct:MBR_SDataHeaderV0
+iSampClock	mbr_dataheader.h	/^    int iSampClock;$/;"	m	struct:MBR_SHeaderInfo
+iSampClock	mbr_dataheader.h	/^    unsigned short int iSampClock: 1;       \/* FPGA status - sampling clock$/;"	m	struct:MBR_SDataHeader
+iShmBlockAdds	das_shm.h	/^    int* iShmBlockAdds[DAS_MAX_SHM_NATTCH];$/;"	m	struct:tag_DAS_Block
+iShmDataAdds	das_shm.h	/^    int* iShmDataAdds[DAS_MAX_SHM_NATTCH];$/;"	m	struct:tag_DAS_Block
+iShmHeaderShmID	das_shm.h	/^    int iShmHeaderShmID;        \/* shmid of the shmheader data structure *\/$/;"	m	struct:tag_DAS_ShmHeader
+iShmID	das_shm.h	/^    int iShmID;                 \/* shmid of the shminfo data structure *\/$/;"	m	struct:tag_DAS_ShmInfo
+iStart	/home/das/src/socket/mbr_serialport.h	/^    int iStart;$/;"	m	struct:DeviceLookUp
+iStatus	das_shm.h	/^    int iStatus;                \/* write status *\/$/;"	m	struct:tag_DAS_ShmInfo
+iStop	/home/das/src/socket/mbr_serialport.h	/^    int iStop;$/;"	m	struct:DeviceLookUp
+iSync	mbr_dataheader.h	/^    int iSync;$/;"	m	struct:MBR_SHeaderInfo
+iSync	mbr_dataheader.h	/^    unsigned short int iSync: 1;            \/* FPGA status - sync signal bit *\/$/;"	m	struct:MBR_SDataHeader
+iSync	mbr_dataheader_v0.h	/^    unsigned short int iSync: 1;                \/* FPGA status - sync signal$/;"	m	struct:MBR_SDataHeaderV0
+iTimestamp	mbr_dataheader.h	/^    int iTimestamp;$/;"	m	struct:MBR_SHeaderInfo
+iTimestamp	mbr_dataheader.h	/^    unsigned short int iTimestamp: 1;       \/* FPGA status - timestamp status *\/$/;"	m	struct:MBR_SDataHeader
+iWrittenData	das_shm.h	/^    int iWrittenData;           \/* written data items in terms of$/;"	m	struct:tag_DAS_ShmInfo
+lMsgType	/home/das/src/socket/mbr_common.h	/^    long lMsgType;$/;"	m	struct:tagMsg
+llMarker	mbr_dataheader_v0.h	/^    long long int llMarker;                     \/* FFFF FFFF FFFF FFFF *\/$/;"	m	struct:MBR_SDataHeaderV0
+m_iMsgQHandle	/home/das/src/socket/mbr_common.h	/^    int m_iMsgQHandle;$/;"	m	class:CMsgQ
+m_iMsgQID	/home/das/src/socket/mbr_common.h	/^    int m_iMsgQID;$/;"	m	class:CMsgQ
+m_iSocketFD	/home/das/src/socket/mbr_common.h	/^    int m_iSocketFD;$/;"	m	class:CSocket
+m_stSocketAddr	/home/das/src/socket/mbr_common.h	/^    struct sockaddr_in m_stSocketAddr;$/;"	m	class:CSocket	typeref:struct:CSocket::sockaddr_in
+main	mbr_acqsniff.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	mbr_acquire.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	mbr_makever.cpp	/^int main(int argc, char *argv[])$/;"	f
+pData	das_shm.h	/^    DAS_SHM_DATATYPE *pData;            \/* pointer to the data *\/$/;"	m	struct:tag_DAS_BlockAdds
+pbHeader	das_shm.h	/^    DAS_BYTE *pbHeader;             \/* pointer to the header info *\/$/;"	m	struct:tag_DAS_HeaderAdds
+pstBlock	das_shm.h	/^    DAS_BLOCK_S *pstBlock;              \/* pointer to the block *\/$/;"	m	struct:tag_DAS_BlockAdds
+pstShmHeader	das_shm.h	/^    DAS_SHMHEADER_S *pstShmHeader;  \/* pointer to the shmheader *\/$/;"	m	struct:tag_DAS_HeaderAdds
+stPacket	/home/das/src/socket/mbr_common.h	/^    MBR_PACKET stPacket;$/;"	m	struct:tagMsg
+tagControl	/home/das/src/socket/mbr_common.h	/^typedef struct tagControl$/;"	s
+tagFPGACmd	/home/das/src/socket/mbr_common.h	/^typedef enum tagFPGACmd$/;"	g
+tagMsg	/home/das/src/socket/mbr_common.h	/^typedef struct tagMsg$/;"	s
+tagPacket	/home/das/src/socket/mbr_common.h	/^typedef struct tagPacket$/;"	s
+tagRFVals	mbr_acquire.h	/^typedef struct tagRFVals$/;"	s
+tag_DAS_Block	das_shm.h	/^typedef struct tag_DAS_Block$/;"	s
+tag_DAS_BlockAdds	das_shm.h	/^typedef struct tag_DAS_BlockAdds$/;"	s
+tag_DAS_Header	das.h	/^typedef struct tag_DAS_Header$/;"	s
+tag_DAS_HeaderAdds	das_shm.h	/^typedef struct tag_DAS_HeaderAdds$/;"	s
+tag_DAS_ShmHeader	das_shm.h	/^typedef struct tag_DAS_ShmHeader$/;"	s
+tag_DAS_ShmInfo	das_shm.h	/^typedef struct tag_DAS_ShmInfo$/;"	s
+~CMsgQ	/home/das/src/socket/mbr_common.cpp	/^CMsgQ::~CMsgQ()$/;"	f	class:CMsgQ
+~CSocket	/home/das/src/socket/mbr_common.cpp	/^CSocket::~CSocket()$/;"	f	class:CSocket

@@ -1,0 +1,4 @@
+g++ -g -Wall -pedantic -c das_shm.c
+g++ -g -Wall acquire_1056bytes_sample.c das_shm.o ../socket/mbr_common.o ../socket/mbr_serialport.o ../socket/mbr_config.o -lpcap -lxml2 -o ~/bin/acquire_1056bytes_sample
+g++ -g -Wall -pedantic mbr_acq_send.c das_shm.o -o ~/bin/acq_send
+rm das_shm.o
