@@ -1,3 +1,0 @@
-~/src/acquire/acquire_1056_shm eth1 > ~/run/reports/aout &
-sleep 1
-~/src/acquire/acq_write2file > ~/run/reports/wout

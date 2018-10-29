@@ -1,1 +1,0 @@
-gcc -Wall -pedantic isalive.c -lpcap -o isalive

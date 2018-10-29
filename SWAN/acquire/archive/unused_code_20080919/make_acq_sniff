@@ -1,2 +1,0 @@
-gcc -g -Wall -pedantic -c das_shm.c
-gcc -g -Wall -pedantic acq_sniff.c das_shm.o -o acq_sniff

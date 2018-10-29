@@ -1,4 +1,0 @@
-gcc -O3 -Wall -pedantic -c das_shm.c
-gcc -O3 -Wall -pedantic acquire_pcap_shm_ns.c das_shm.o -lpcap -o acquire_pcap_shm_ns_opt
-gcc -O3 -Wall -pedantic acq_write2file_write.c das_shm.o -o acq_write2file_write_opt
-rm das_shm.o

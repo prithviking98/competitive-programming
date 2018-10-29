@@ -1,1 +1,0 @@
-gcc -Wall -pedantic acquire_1056_check.c -lpcap -o acquire_1056_check

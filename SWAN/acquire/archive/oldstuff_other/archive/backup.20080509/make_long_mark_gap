@@ -1,1 +1,0 @@
-gcc -g long_mark_gap_lin.c -o long_mark_gap
