@@ -1,0 +1,12 @@
+1) always use adjacency list to store tree
+
+2) dynamic prograpping doesn't necessarily mean memoisation needs to be done in an array
+
+3) for a tree of n nodes, n-1 edges are there
+corresponding to each edge, there are two possible subtrees - one each for when either of the connected
+nodes becomes the parent. So the number of total possible different subtrees is 2(n-1) when you're considering
+any node can be the root. (entire tree is not considered as subtree here, if that is also counted, there are 
+n additional subtrees for each of the n nodes becoming the root)
+
+4) unless explicitly stated, edges given in problems are undirected and graphs given in problems are not 
+ guaranteed to be trees

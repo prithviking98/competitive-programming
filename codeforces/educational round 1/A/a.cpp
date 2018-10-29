@@ -1,0 +1,36 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define rep(i,a,b) for(int i=a;i<b;++i)
+#define PUB push_back
+#define PUF push_front
+#define POB pop_back
+#define POF pop_front
+#define trace1(x) cout<<#x<<"="<<x<<endl
+#define trace2(x,y) cout<<#x<<"="<<x<<" "<<#y<<"="<<y<<endl
+#define trace3(x,y,z) cout<<#x<<"="<<x<<" "<<#y<<"="<<y<<" "<<#z<<"="<<z<<endl
+#define trace4(w,x,y,z) cout<<#w<<"="<<w<<" "<<#x<<"="<<x<<" "<<#y<<"="<<y<<" "<<#z<<"="<<z<<endl
+
+typedef long long ll;
+typedef vector<int> vi;
+typedef pair<int,int> pii;
+
+int main()
+{
+	ios::sync_with_stdio(0);
+	int t;
+	cin>>t;
+	while(t--)
+	{
+		ll n;
+		cin>>n;
+		ll sum=0;
+		sum=n*(n+1)/2;
+		int p=log2(n)+1;
+		ll gp=(pow(2,p)-1);
+		sum=sum-2*gp;
+		cout<<sum<<endl;
+	}
+	return 0;
+}
