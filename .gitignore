@@ -1,4 +1,5 @@
 *.out
 *.txt
 *.in
-*.pdf
+*~
+*.swp
