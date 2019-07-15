@@ -47,6 +47,7 @@ void search(int col)
 				continue;
 			r[i]=dn[i+col]=dp[i+7-col]=1;
 			string t="0";
+
 			t[0]+=(i+1);
 			sol=sol+t;
 			search(col+1);
